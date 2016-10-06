@@ -1,0 +1,147 @@
+a {
+  text-decoration: none;
+  color:white;}
+
+.header {
+  height: 40px;
+  width: 100%;
+  opacity: 0.8;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.footer {
+  height: 40px;
+  width: 100%;
+  opacity: 0.8;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-right: 50px;
+  margin: 0;
+  z-index: 2;
+  font-style: sans-serif;
+  font-weight: lighter;
+  font-family: helvetica;
+  text-align: right;
+}
+
+span {
+  width: 20px;
+}
+
+.stickright {
+  text-align: right;
+  width: 100%;
+}
+
+.header .stickright p {
+  display: inline-block;
+  margin:10px;
+  margin-right: 5%;
+  font-style: sans-serif;
+  font-weight: lighter;
+  font-size: 14pt;
+  font-family: helvetica;
+}
+
+
+.leftcolumn {
+  background-color: white;
+  width: 50%;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  height: 768px;
+  float: left;
+  display: inline-block;
+  z-index: 1;
+}
+
+.leftcolumn img{
+margin: 0;
+padding: 0;
+display: inline;
+max-width: 49%;
+white-space: nowrap;
+background-size: cover;
+}
+
+#button {
+  padding-top:  2%;
+  display: flex;
+  justify-content: space-around;;
+  max-width: 100%;
+  margin: auto;
+}
+
+.portfolio {
+  background-color: white;
+}
+
+.rightcolumn {
+  display: inline-block;
+  background-color: red;
+  position: relative;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  float: right;
+  z-index: 0;
+}
+
+.rightcolumn img {
+  min-width: 100%;
+}
+
+.wrapper {
+  padding-top: 0;
+  color: #FDF6EB;
+  font-size: 10pt;
+  background-color: white;
+  font-weight: 200;
+  font-family: 'Quicksand', sans-serif;
+  width:70%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.wrapper img{
+  margin-bottom: 100px;
+  opacity: 1;
+  max-width: 100%;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big {
+  width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+ font-size:15pt;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+color: grey;
+}
+
+.video{
+  max-width: 70%;
+}
