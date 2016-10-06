@@ -6,13 +6,14 @@ a {
   height: 40px;
   width: 100%;
   opacity: 0.8;
-  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
   padding: 0;
   margin: 0;
   z-index: 2;
+  color: black;
+  font-family: sans-serif;
 }
 
 .footer {
@@ -49,11 +50,11 @@ span {
   font-weight: lighter;
   font-size: 14pt;
   font-family: helvetica;
+  color: black;
 }
 
 
 .leftcolumn {
-  background-color: white;
   width: 50%;
   position: fixed;
   top: 40px;
@@ -92,7 +93,7 @@ background-size: cover;
   position: relative;
   width: 50%;
   position: fixed;
-  top: 0;
+  top: 40px;
   right: 0;
   padding: 0;
   margin: 0;
@@ -143,4 +144,17 @@ color: grey;
 
 .video{
   max-width: 70%;
+}
+
+.master{
+  background-color: #77C6C4;
+  width:90%;
+  text-align: center;
+}
+
+.chapter{
+height: 1000px;
+margin-top: 40px;
+background-color: #77C6C4;
+font-family: sans-serif;
 }
